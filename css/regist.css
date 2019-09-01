@@ -1,0 +1,315 @@
+body,h1,h2,h3,h4,i,span,p,ul,li,em,i,input{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+.register{
+	width: 100%;
+	height: 758px;
+	background: #f9f9f9;
+	overflow: hidden;
+	position: relative;
+}
+.register_content{
+	width: 855px;
+	height: 750px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.register_content_logo{
+	width: 49px;
+	height: 49px;
+	background-color: orangered;
+	background-image: url(../img/mi-logo.png);
+	margin-left: 403px;
+}
+.register_title{
+	width: 100%;
+	height: 27px;
+	font-size: 27px;
+	line-height: 27px;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 48px;
+}
+.regist_h4{
+	width: 100%;
+	height: 12px;
+	line-height: 12px;
+	color: #333333;
+	font-weight: 400;
+	margin-top: 42px;
+	margin-bottom: 9px;
+	margin-left: 260px;
+}
+.regist_country{
+	width: 330px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	display: block;
+	margin-left: 260px;
+	cursor: pointer;
+}
+.regist_country input{
+	width:273px;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 10px;
+	display: block;
+	float: left;
+	padding-left:16px ;
+}
+.regist_country div{
+	width: 40px;
+	height: 40px;
+	border-left: 1px solid #e8e8e8;
+	float: left;
+}
+.regist_country div span{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: 1px solid #e8e8e8;
+	display: block;
+	color: #E8E8E8;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 11px;
+	margin-left: 11px;
+}
+.regist_article{
+	width: 100%;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #666666;
+	margin-left: 260px;
+	margin-top: 9px;
+}
+.regist_phone{
+	width: 100%;
+	height: 12px;
+	margin-top: 23px;
+	margin-bottom: 9px;
+	margin-left: 260px;
+	line-height: 12px;
+	font-size: 12px;
+	color:#333333 ;
+	font-weight: 500;
+}
+.regist_passward{
+	width: 100%;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-left: 260px;
+	font-weight: 500;
+	margin-top: 23px;
+	margin-bottom: 9px;
+}
+.regist_pass{
+	width: 329px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	display: block;
+	margin-left: 260px;
+}
+.regist_pass input{
+	width: 313px;
+	height: 40px;
+	padding-left: 16px;
+	border: none;
+	outline: none;
+}
+.regist_email{
+	width: 100%;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-left: 260px;
+	font-weight: 500;
+	margin-top: 23px;
+	margin-bottom: 9px;
+}
+.regist_email_add{
+	width: 329px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	display: block;
+	margin-left: 260px;
+}
+.regist_email_add input{
+	width: 313px;
+	height: 40px;
+	padding-left: 16px;
+	border: none;
+	outline: none;
+}
+.regist_sexy{
+	width: 100%;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-left: 260px;
+	font-weight: 500;
+	margin-top: 23px;
+	margin-bottom: 9px;
+}
+
+.man{
+	margin-left:260px ;
+}
+.woman{
+	margin: 0 5px;
+}
+.regist_button{
+	width: 329px;
+	height: 40px;
+	outline: none;
+	border: 1px solid #ea8038;
+	background: #ff6700;
+	margin-left: 260px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.regist_agreement{
+	width: 100%;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+	margin-top: 85px;
+}
+.regist_agreement p{
+	float: left;
+	margin-left: 300px;
+	color: #9d9d9d;
+}
+.regist_agreement i{ 
+	display: block;
+	float: left;
+	font-style: normal;
+	color: #9d9d9d;
+}
+.regist_agreement span{
+	display: block;
+	float: left;
+	color: #000000;
+	font-weight: 500;
+}
+.regist_footer{
+	width: 100%;
+	height:100px;
+	background: #f9f9f9;
+	overflow: hidden;
+	color: #757575;
+}
+.regist_footer_type{
+	width: 855px;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+.regist_footer_type span{
+	display: block;
+	float: left;
+}
+.regist_footer_type>div{
+	cursor: pointer;
+	float: left;
+}
+.regist_footer_type>div:first-child{
+	margin-left: 306px;
+}
+.regist_footer_type span{
+	margin: 0 11px;
+}
+.regist_footer_type div:last-child a{
+	color:#757575;
+}
+.fontype{
+	color: #222222;
+}
+.regist_system{
+	width: 855px;
+	height: 20px;
+	font-size: 12px;
+	color: #9d9d9d;
+	margin: 0 auto;
+	margin-top: 11px;
+}
+.regist_system p{
+	margin-left: 155px;
+	float: left;
+	line-height: 25px;
+}
+.regist_system div{
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.regist_system span{
+	display: block;
+	float: left;
+	line-height: 25px;
+}
+.regist_system span a{
+	color: #9d9d9d;
+}
+.regist_system i{
+	display: block;
+	float: left;
+	font-style: normal;
+	line-height: 25px;
+}
+.verify3,.verify2,.verify1,.verify4{
+	width: 250px;
+	height: 42px;
+	float: left;
+	line-height: 40px;
+	font-size: 12px;
+	color: orangered;
+}
+.verify1{
+	position: absolute;
+	top: 197px;
+	right:248px;
+}
+.verify2{
+	position: absolute;
+	top: 305px;
+	right:248px;
+}
+.verify3{
+	position: absolute;
+	top: 395px;
+	right:248px;
+}
+.verify4{
+	position: absolute;
+	right:248px;
+	top: 480px;
+}
+.regist_man{
+	width: 329px;
+	height: 40px;
+	border: 1px solid #F5F5F5;
+	display: block;
+	margin-left: 260px;
+}
+.regist_man input{
+	width: 329px;
+	height: 40px;
+	border: none;
+	outline: none;
+}
